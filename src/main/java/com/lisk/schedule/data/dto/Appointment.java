@@ -10,6 +10,9 @@ import java.time.LocalDateTime;
 @Builder
 public class Appointment {
     @NonNull
+    @Schema(description = "DB PK for Appointments table")
+    private int appointmentID;
+    @NonNull
     @Schema(description = "User that requested the appointment")
     private Person requestedByUser;
     @Schema(description = "Requested Appointment date in UTC")
