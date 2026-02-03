@@ -6,13 +6,9 @@ time managing their schedule as they do creating the art, and this application's
 is designed to keep track of deposits, keep track of the status of appointments, and provide a "one-stop shop" for
 managing scheduling.
 ## Architecture
+*NOTE: User Architecture is Temporary while in infancy stages. Will be adding login functionality later*
 
-#### User Architecture
-*NOTE: User Architecture is Temporary while in infancy stages. Will move to RHSSO*
-
-
-
-#### Scheduling Architecture
+![img.png](src/main/resources/images/DB_Design.png)
 
 ## How to Run
 Currently, this application has not been containerized as it is in its infancy stages. Once the application has matured

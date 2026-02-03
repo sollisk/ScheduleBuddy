@@ -13,8 +13,11 @@ public class Appointment {
     @Schema(description = "DB PK for Appointments table")
     private int appointmentID;
     @NonNull
-    @Schema(description = "User that requested the appointment")
-    private User requestedByUser;
+    @Schema(description = "User that is providing service")
+    private User artist;
+    @NonNull
+    @Schema(description = "User that is receiving service")
+    private User customer;
     @Schema(description = "Requested Appointment date in UTC")
     private LocalDateTime appointmentDate;
     @Schema(description = "Placement of wanted work")
