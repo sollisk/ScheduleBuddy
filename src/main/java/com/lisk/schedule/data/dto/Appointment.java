@@ -14,12 +14,12 @@ public class Appointment {
     private int appointmentID;
     @NonNull
     @Schema(description = "User that requested the appointment")
-    private Person requestedByUser;
+    private User requestedByUser;
     @Schema(description = "Requested Appointment date in UTC")
     private LocalDateTime appointmentDate;
-    @Schema(description = "Placement of wanted tattoo")
+    @Schema(description = "Placement of wanted work")
     private String placement;
-    @Schema(description = "Description of art wanted")
+    @Schema(description = "Description of wanted service")
     private String artDescription;
     @Builder.Default
     @Schema(description = "Has appointment date/time been accepted by the ARTIST")
@@ -27,4 +27,6 @@ public class Appointment {
     @Builder.Default
     @Schema(description = "Has the CUSTOMER paid the deposit")
     private boolean isDepositPaid = false;
+    @Schema(description = "Monetary value of how much deposit was paid")
+    private double depositAmount;
 }

@@ -7,9 +7,9 @@ import lombok.Data;
 
 @Data
 @Builder
-public class Person {
+public class User {
     @Schema(description = "ID of person in the DB")
-    private int personID;
+    private int userID;
     @Schema(description = "First name of Artist/Customer")
     private String firstName;
     @Schema(description = "Last name of Artist/Customer")

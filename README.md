@@ -1,7 +1,7 @@
 # Schedule Buddy
 
 ## What it is
-Scheduling Buddy is an application to help tattoo artists streamline their scheduling. Many artists spend just as much
+Scheduling Buddy is an application to help artists streamline their scheduling. Many artists spend just as much
 time managing their schedule as they do creating the art, and this application's goal is to help mitigate that. This app
 is designed to keep track of deposits, keep track of the status of appointments, and provide a "one-stop shop" for
 managing scheduling.

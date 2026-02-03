@@ -16,7 +16,7 @@ public class AppointmentController {
 
     AppointmentService appointmentService;
 
-    @GetMapping("retrieve/tattoo")
+    @GetMapping("retrieve")
     public Appointment retrieveBaseAppointmentDetails() {
         return null;
     }
