@@ -18,7 +18,7 @@ public class AppointmentService {
         return null;
     }
 
-    public List<Appointment> retrieveAppointmentsByDatesA(LocalDateTime startDate, int dayRange) {
+    public List<Appointment> retrieveAppointmentsByDates(LocalDateTime startDate, int dayRange) {
         return null;
     }
 

@@ -20,6 +20,4 @@ public class User {
     private String userEmail;
     @Schema(description = "User's phone number. Stripped on non-numeric characters", example = "4797008888")
     private String phoneNumber;
-    @Schema(description = "Timezone User is in")
-    private String timeZone;
 }

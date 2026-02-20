@@ -32,4 +32,6 @@ public class Appointment {
     private boolean isDepositPaid = false;
     @Schema(description = "Monetary value of how much deposit was paid")
     private double depositAmount;
+    @Schema(description = "Timezone the appointment is in")
+    private String timeZone;
 }
